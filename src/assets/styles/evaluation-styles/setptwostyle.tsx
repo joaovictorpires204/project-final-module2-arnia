@@ -12,7 +12,7 @@ const BreadcrumbOne = styled.div`
   display: flex;
   align-items: center;
   background-color: #017849;
-  width: 340px;
+  width: 332px;
   height: 50px;
   border: 1px solid #017849;
   border-right: none;
@@ -21,7 +21,7 @@ const BreadcrumbOne = styled.div`
 const BreadcrumbTwo = styled.div`
   display: flex;
   background-color: white;
-  width: 340px;
+  width: 332px;
   height: 50px;
   border: 1px solid #017849;
   border-right: none;
@@ -31,7 +31,7 @@ const BreadcrumbTwo = styled.div`
 const BreadcrumbThree = styled.div`
   display: flex;
   background-color: #d2dad5;
-  width: 340px;
+  width: 332px;
   height: 50px;
   border: 1px solid #d2dad5;
   border-left: none;
