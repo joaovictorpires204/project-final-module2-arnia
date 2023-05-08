@@ -10,7 +10,7 @@ export const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="" element={<Layout />}>
           <Route index element={<Timeline />} />
           <Route path="/avaliacaopsicologica" element={<Evaluation />}>
             <Route path="/avaliacaopsicologica" element={<FormFirstStep />} />
