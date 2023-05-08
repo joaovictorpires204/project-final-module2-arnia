@@ -7,15 +7,15 @@ import { FormSecondStep } from '../components/evaluation-components/step-second'
 import { FormThirdStep } from '../components/evaluation-components/step-three'
 
 export const Router = () => {
-  return (
+return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Timeline />} />
-          <Route path="avaliacaopsicologica" element={<Evaluation />}>
-            <Route path="avaliacaopsicologica" element={<FormFirstStep />} />
-            <Route path='/teste' element={<FormSecondStep/>}/>
-            <Route path='/observacao' element={<FormThirdStep />}/>
+          <Route path="/avaliacaopsicologica" element={<Evaluation />}>
+            <Route path="/avaliacaopsicologica" element={<FormFirstStep />} />
+            <Route path='/avaliacaopsicologica/teste' element={<FormSecondStep/>}/>
+            <Route path='/avaliacaopsicologica/observacao' element={<FormThirdStep />}/>
           </Route>
         </Route>
       </Routes>
