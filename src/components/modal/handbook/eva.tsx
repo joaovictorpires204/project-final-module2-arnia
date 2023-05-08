@@ -27,7 +27,7 @@ export const Eva = ({ isActive, closeModal }: ModalProps) => {
               psicológica
             </I.AlertContent>
           </I.AlertEva>
-          <Footer closeModal={closeModal} direction="avaliacaopsicologica" title='Prosseguir'/>
+          <Footer closeModal={closeModal} direction="/avaliacaopsicologica" title='Prosseguir'/>
         </Modal>
       )}
     </>

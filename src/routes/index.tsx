@@ -13,9 +13,9 @@ export const Router = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Timeline />} />
           <Route path="/avaliacaopsicologica" element={<Evaluation />}>
-            <Route path="avaliacaopsicologica" element={<FormFirstStep />} />
-            <Route path='teste' element={<FormSecondStep/>}/>
-            <Route path='observacao' element={<FormThirdStep />}/>
+            <Route path="/avaliacaopsicologica" element={<FormFirstStep />} />
+            <Route path='/teste' element={<FormSecondStep/>}/>
+            <Route path='/observacao' element={<FormThirdStep />}/>
           </Route>
         </Route>
       </Routes>
